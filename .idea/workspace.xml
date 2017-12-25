@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42bb879f-571d-425b-9970-20a902da71e2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/newview/bysj/filter/UrlFilter.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/addEditProject/addEditProject.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/addEditProject/addEditProject.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocatedProjectsToStudent.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocatedProjectsToStudent.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocatedStudents.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocatedStudents.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/showTutorStudent.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/showTutorStudent.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditDepartment.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditDepartment.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditMajor.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditMajor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditSchool.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditSchool.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditStudentClass.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditStudentClass.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/checkAccountData/notCompletedList.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/checkAccountData/notCompletedList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/chiefTutor/addOrEditEvaluate.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/chiefTutor/addOrEditEvaluate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/saveRemarkTemplate.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/saveRemarkTemplate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/viewRemarkTemplate.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/viewRemarkTemplate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroup/EditOrAddEvaluate.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroup/EditOrAddEvaluate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroupTutor/replyGroupEvaluateModal.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroupTutor/replyGroupEvaluateModal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/reviewer/EditOrAddEvaluate.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/reviewer/EditOrAddEvaluate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewReplyGroupEvaluate.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewReplyGroupEvaluate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewReviewerEvaluate.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewReviewerEvaluate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewTutorEvaluate.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewTutorEvaluate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/departmentJsonComboxModal.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/departmentJsonComboxModal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/majorJsonComboxModal.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/majorJsonComboxModal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxModal.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxModal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxNoSchoolModal.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxNoSchoolModal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/includeURL.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/includeURL.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/login/timeout.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/login/timeout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/addMail.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/addMail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/editMail.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/editMail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/receiveViewMail.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/receiveViewMail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/replyMail.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/replyMail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/sendViewMail.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/sendViewMail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/newTechnology/detailForProject.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/newTechnology/detailForProject.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/print/viewStudentScore.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/print/viewStudentScore.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectDetails/detailForProject.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectDetails/detailForProject.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectOfTime/addOrEditHolidayTime.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectOfTime/addOrEditHolidayTime.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectOfTime/addOrEditTime.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectOfTime/addOrEditTime.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/replyGroup/addOrEditReplyGroup.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/replyGroup/addOrEditReplyGroup.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/replyGroup/setTimeAndClassRoom.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/replyGroup/setTimeAndClassRoom.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/stageAchievement/writeRemark.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/stageAchievement/writeRemark.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/openningReport/noOpenningReport.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/openningReport/noOpenningReport.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/schedule/addScheduleContent.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/schedule/addScheduleContent.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/stageAchievement/upLoadStageAchievement.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/stageAchievement/upLoadStageAchievement.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/supervise/uploadSuperviseReport.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/supervise/uploadSuperviseReport.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/taskDoc/uploadTaskDoc.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/taskDoc/uploadTaskDoc.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/authority/userToRole.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/authority/userToRole.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/employee/addOrEditEmployee.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/employee/addOrEditEmployee.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/employee/toImportEmployee.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/employee/toImportEmployee.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/student/addOrEditStudent.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/student/addOrEditStudent.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/student/toImportStudent.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/student/toImportStudent.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/visitingEmployee/addOrEditVisitingEmployee.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/visitingEmployee/addOrEditVisitingEmployee.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/ActorDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/ActorDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/DepartmentDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/DepartmentDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/EmployeeDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/EmployeeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/MajorDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/MajorDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/ResourceDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/ResourceDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/RoleDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/RoleDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/RoleResourceDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/RoleResourceDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/StudentClassDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/StudentClassDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/StudentDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/StudentDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/TutorDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/TutorDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/UserRoleDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/UserRoleDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/ValidityDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/ValidityDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/dao/VisitingEmployeeDao.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/dao/VisitingEmployeeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Audit.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/Audit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/CoTutorage.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/CoTutorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/CommentByGroup.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/CommentByGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/CommentByTutor.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/CommentByTutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Constraint.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/Constraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Degree.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/Degree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/GraduateProject.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/GraduateProject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Mail.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/Mail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/MailAddresses.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/MailAddresses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/MainTutorage.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/MainTutorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Opinion.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/Opinion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/ProTitle.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/ProTitle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/RemarkTemplate.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/RemarkTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/ReplyGroup.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/ReplyGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/ReplyGroupMemberScore.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/ReplyGroupMemberScore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/School.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/School.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/SupervisionReport.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/SupervisionReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/TutorAsMemberToReplyGroup.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/TutorAsMemberToReplyGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/helper/CommonHelper.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/helper/CommonHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/initialize/DataToMysql.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/initialize/DataToMysql.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/initialize/domain/ResourceWithFK.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/initialize/domain/ResourceWithFK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/initialize/domain/RoleWithFk.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/initialize/domain/RoleWithFk.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/security/DefaultUserDetailService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/security/DefaultUserDetailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/security/login/MyUsernamePasswordAuthenticationFilter.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/security/login/MyUsernamePasswordAuthenticationFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/ActorService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/ActorService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/ConstraintOfApproveOpenningReportService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/ConstraintOfApproveOpenningReportService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/ConstraintOfProposeProjectService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/ConstraintOfProposeProjectService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/DepartmentService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/DepartmentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/DesignProjectService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/DesignProjectService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/EmployeeService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/EmployeeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/GraduateProjectService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/GraduateProjectService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/GuideRecordService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/GuideRecordService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/MailAddressesService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/MailAddressesService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/MailService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/MailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/MajorService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/MajorService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/OpenningReportService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/OpenningReportService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/PaperProjectService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/PaperProjectService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/RemarkTemplateService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/RemarkTemplateService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/ReplyGroupService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/ReplyGroupService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/ResourceService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/ResourceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/RoleResourceService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/RoleResourceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/RoleService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/RoleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/ScheduleService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/ScheduleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/SchoolSupervisionReportService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/SchoolSupervisionReportService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/StudentClassService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/StudentClassService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/StudentService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/StudentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/TaskDocService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/TaskDocService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/TutorService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/TutorService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/UserRoleService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/UserRoleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/UserService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/ValidityService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/ValidityService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/VisitingEmployeeService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/VisitingEmployeeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestActorService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestActorService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestCoTutorageService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestCoTutorageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestConstraintOfProposeProjectService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestConstraintOfProposeProjectService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestDepartmentService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestDepartmentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestEmployeeService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestEmployeeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestGraduateProjectService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestGraduateProjectService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestMailAddressesService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestMailAddressesService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestMailService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestMailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestMainTutorageService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestMainTutorageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestMajorService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestMajorService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestOpenningReportService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestOpenningReportService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestPaperProjectService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestPaperProjectService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestProjectTimeSpanService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestProjectTimeSpanService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestReplyGroupService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestReplyGroupService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestRoleResourceService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestRoleResourceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestRoleService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestRoleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestStudentService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestStudentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestTaskDocService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestTaskDocService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestTutorService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestTutorService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestUserRoleService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestUserRoleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestUserService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestVisitingEmployeeService.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/service/test/TestVisitingEmployeeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/util/ResourcesComparatorById.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/util/ResourcesComparatorById.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/allocateProjectAndStudent/AllocateProjectsToStudentController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/allocateProjectAndStudent/AllocateProjectsToStudentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/allocateProjectAndStudent/AllocateStudentsController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/allocateProjectAndStudent/AllocateStudentsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/android/AndroidBase.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/android/AndroidBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/android/BysjWebServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/android/BysjWebServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/android/test/TestBysjWebServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/android/test/TestBysjWebServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/approveProject/ApproveProjectController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/approveProject/ApproveProjectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/baseInfoManage/UsersManageController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/baseInfoManage/UsersManageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/changeProject/ChangProjectController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/changeProject/ChangProjectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/checkAcountComplete/CheckAcountController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/checkAcountComplete/CheckAcountController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/checkAcountComplete/DepartmentAcountCompleted.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/checkAcountComplete/DepartmentAcountCompleted.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/checkDepartmentTime/CheckTimeController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/checkDepartmentTime/CheckTimeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/evaluate/chiefTutor/TutorProjectToEvaluateController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/evaluate/chiefTutor/TutorProjectToEvaluateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/evaluate/replyGroup/GroupProjectsToEvaluateController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/evaluate/replyGroup/GroupProjectsToEvaluateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/evaluate/reviewer/ReviewerProjectToEvaluateController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/evaluate/reviewer/ReviewerProjectToEvaluateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/getJsonForInfo/JsonInfoController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/getJsonForInfo/JsonInfoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/login/LoginController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/login/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/mail/MailController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/mail/MailController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/newTechnology/NewAssignSchoolExcellentProjectController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/newTechnology/NewAssignSchoolExcellentProjectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/newTechnology/NewScheduleGraduateProjectList.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/newTechnology/NewScheduleGraduateProjectList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/print/PrintAttachmentProjectController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/print/PrintAttachmentProjectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/print/ScoreReportController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/print/ScoreReportController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/projectHelper/GraduateProjectHelper.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/projectHelper/GraduateProjectHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/projectList/MyProjectListController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/projectList/MyProjectListController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/projectList/ProjectListController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/projectList/ProjectListController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/projectOfTime/ProjectOfTimeController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/projectOfTime/ProjectOfTimeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/BaseRemarkTemplate.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/BaseRemarkTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/DesignRemarkTemplateForGroup.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/DesignRemarkTemplateForGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/DesignRemarkTemplateForReviewer.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/DesignRemarkTemplateForReviewer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/DesignRemarkTemplateForTutor.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/DesignRemarkTemplateForTutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/PaperRemarkTemplateForGroup.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/PaperRemarkTemplateForGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/PaperRemarkTemplateForReviewer.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/PaperRemarkTemplateForReviewer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/PaperRemarkTemplateForTutor.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/PaperRemarkTemplateForTutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/RemarkTemplateController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/remarkTemplate/RemarkTemplateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/replyGroups/ReplyGroupsController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/replyGroups/ReplyGroupsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/replyGroups/SetTimePlaceController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/replyGroups/SetTimePlaceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/reviewerManage/ReviewerManageController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/reviewerManage/ReviewerManageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/schoolExcellentProject/AssignSchoolExcellentProjectController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/schoolExcellentProject/AssignSchoolExcellentProjectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/schoolExcellentProject/ScheduleGraduateProjectList.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/schoolExcellentProject/ScheduleGraduateProjectList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/stageAchievements/AuditStageAchievementController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/stageAchievements/AuditStageAchievementController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/stageAchievements/StudentAchievementController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/stageAchievements/StudentAchievementController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/studentFinalDraft/StudentFinalDraftController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/studentFinalDraft/StudentFinalDraftController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/studentOpenningReport/OpenningReportManageController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/studentOpenningReport/OpenningReportManageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/studentOpenningReport/StudentUploadOpenningReport.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/studentOpenningReport/StudentUploadOpenningReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/studentSchedule/AuditScheduleController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/studentSchedule/AuditScheduleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/studentSchedule/StudentScheduleController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/studentSchedule/StudentScheduleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/superviseReport/SubmitSuperviseReportController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/superviseReport/SubmitSuperviseReportController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/superviseReport/SuperviseProjectController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/superviseReport/SuperviseProjectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/taskDocManage/ApproveTaskDocController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/taskDocManage/ApproveTaskDocController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/taskDocManage/StudentTaskDocController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/taskDocManage/StudentTaskDocController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/taskDocManage/TaskDocManageController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/taskDocManage/TaskDocManageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/authority/EmployeeToRoleController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/authority/EmployeeToRoleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/authority/EmployeeToRoleManageController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/authority/EmployeeToRoleManageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/employee/SchoolAdminEmployeeController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/employee/SchoolAdminEmployeeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/employee/SchoolAdminImportEmployeeController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/employee/SchoolAdminImportEmployeeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/employee/VisitingAdminEmployeeController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/employee/VisitingAdminEmployeeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/student/StudentAdminStudentController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/student/StudentAdminStudentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/student/StudentAdminStudentImportController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/userManager/student/StudentAdminStudentImportController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newview/bysj/web/viewReplyTimeLocation/viewReplyController.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/web/viewReplyTimeLocation/viewReplyController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Actor.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/authority/Actor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Contact.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/authority/Contact.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Department.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/userManager/Department.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Employee.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/allUsers/Employee.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Major.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/userManager/Major.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Resource.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/authority/Resource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Role.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/authority/Role.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/RoleResource.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/authority/RoleResource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Student.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/allUsers/Student.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/StudentClass.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/userManager/StudentClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Tutor.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/allUsers/Tutor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/User.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/authority/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/UserRole.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/authority/UserRole.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/Validity.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/other/Validity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/newview/bysj/domain/VisitingEmployee.java" afterPath="$PROJECT_DIR$/src/com/newview/bysj/domain/allUsers/VisitingEmployee.java" />
+    </list>
+    <ignored path="bysjrefactor.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="bysjrefactor" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="School.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/newview/bysj/domain/School.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zx" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/newview/bysj/domain/userManager/Department.java" />
+        <option value="$PROJECT_DIR$/src/com/newview/bysj/domain/userManager/StudentClass.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/includeURL.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/authority/userToRole.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/employee/addOrEditEmployee.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/employee/toImportEmployee.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/student/addOrEditStudent.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/student/toImportStudent.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/usersManage/visitingEmployee/addOrEditVisitingEmployee.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/taskDoc/uploadTaskDoc.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/supervise/uploadSuperviseReport.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/openningReport/noOpenningReport.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/schedule/addScheduleContent.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/student/stageAchievement/upLoadStageAchievement.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/stageAchievement/writeRemark.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/replyGroup/addOrEditReplyGroup.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/replyGroup/setTimeAndClassRoom.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectOfTime/addOrEditHolidayTime.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectOfTime/addOrEditTime.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/projectDetails/detailForProject.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/print/viewStudentScore.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/newTechnology/detailForProject.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/addMail.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/editMail.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/receiveViewMail.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/replyMail.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/mail/sendViewMail.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/login/timeout.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/departmentJsonComboxModal.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/majorJsonComboxModal.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxModal.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxNoSchoolModal.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/chiefTutor/addOrEditEvaluate.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/saveRemarkTemplate.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/viewRemarkTemplate.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroup/EditOrAddEvaluate.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroupTutor/replyGroupEvaluateModal.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/reviewer/EditOrAddEvaluate.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewReplyGroupEvaluate.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewReviewerEvaluate.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewTutorEvaluate.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/checkAccountData/notCompletedList.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditDepartment.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditMajor.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditSchool.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditStudentClass.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocatedProjectsToStudent.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocatedStudents.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/showTutorStudent.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsps/addEditProject/addEditProject.jsp" />
+        <option value="$PROJECT_DIR$/src/com/newview/bysj/domain/other/Validity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysjrefactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bysj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="F:\blog\node\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glmis1" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/newview/bysj/domain" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.newview.bysj.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\毕设\bysjrefactor\src\com\newview\bysj\filter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.bysjTomcat">
+    <configuration default="false" name="addEditProject.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/WEB-INF/jsps/addEditProject/addEditProject.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="bysj" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="bysjTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.36" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="bysj3:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bysjrefactor" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10947" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bysj3:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.bysjTomcat" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.addEditProject.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.addEditProject.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42bb879f-571d-425b-9970-20a902da71e2" name="Default" comment="" />
+      <created>1513089198614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513089198614</updated>
+      <workItem from="1513089201665" duration="10421000" />
+      <workItem from="1513169740543" duration="3793000" />
+      <workItem from="1513215772344" duration="5919000" />
+      <workItem from="1513494961508" duration="14065000" />
+      <workItem from="1514100834582" duration="7594000" />
+      <workItem from="1514121689307" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41956000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26701966" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、修改了jsp文件，使得点击界面后，打印其所在的相应路径&#10;2、给部分实体类添加了注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、修改了jsp文件，使得点击界面后，打印其所在的相应路径&#10;2、给部分实体类添加了注释" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/commonHelper.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/departmentJsonCombox.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/departmentJsonComboxModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/jsphelper.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/majorJsonCombox.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/majorJsonComboxModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonCombox.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxNoSchool.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/help/studentClassJsonComboxNoSchoolModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/excellentProjects/assginProvinceExcellentProjects.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/excellentProjects/assginSchoolExcellentProjects.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/excellentProjects/checkProvinceExcellentProjects.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/excellentProjects/checkSchoolExcellentProjects.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/excellentProjects/scheduleGraduateProjectList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/example/example.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/example/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/chiefTutor/addOrEditEvaluate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/saveRemarkTemplate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/setRemarkTemplate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/remarkTemplate/viewRemarkTemplate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroup/EditOrAddEvaluate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroupTutor/replyGroupEvaluateModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/replyGroupTutor/replyTutorEvaluateList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/reviewer/EditOrAddEvaluate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewReplyGroupEvaluate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewReviewerEvaluate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/viewEvaluate/viewTutorEvaluate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/evaluate/projectEvaluateList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/checkDepartmentTime/checkTimeList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/checkAccountData/listAccountData.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/checkAccountData/notCompletedList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditDepartment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditMajor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditSchool.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/addorEditStudentClass.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/listDepartment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/listMajor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/listSchool.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/listStudentClass.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/baseInfoManage/redirectUniversityAdminToRole.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/approveProjects/approveProjectOfTutor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocatedProjectsToStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocatedStudents.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocateProjectsToStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/allocateStudents.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/allocate/showTutorStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsps/addEditProject/addEditProject.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/newview/bysj/domain/other/Validity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/newview/bysj/domain/TutorAsMemberToReplyGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/newview/bysj/domain/School.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
